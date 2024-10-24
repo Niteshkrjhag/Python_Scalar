@@ -1,6 +1,2 @@
-class Animal:
-    name = "Dog"
-    
-    def __init__(self,bread):
-        self.name= bread
-    
+for a, b in [(1, 2), (3, 4)]:
+    print(a, b) 

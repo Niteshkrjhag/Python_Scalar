@@ -31,7 +31,8 @@ list1 = input('Enter number separated by space : ').split()
 print(list1)
 
 # Taking input for a set of integers
-integer_set = set(map(int, input("Enter numbers separated by space: ").split()))
+integer_set = set(input("Enter numbers separated by space: ").split()) #set doesnot store input as in provided
+                                                                    #ordered as they are unordered data type.
 print("Set of integers:", integer_set)
 
 #Taking input for a tuple

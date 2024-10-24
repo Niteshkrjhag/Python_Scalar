@@ -65,7 +65,7 @@ def generator():
     yield "hello"
     yield "Nitesh"
     
-gen = generator()
+gen = generator()  // similar concept like readLine in aspect of File
 print(next(gen))
 print(next(gen))
 '''

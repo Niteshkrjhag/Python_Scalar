@@ -2,7 +2,7 @@
 '''
 1)single line comment 
 2) multiline comment
-3)docstring comment  =>hey are added right below the functions, classes, or modules, and they describe what they do. 
+3)docstring comment  =>They are added right below the functions, classes, or modules, and they describe what they do. 
 '''
 
 def name():

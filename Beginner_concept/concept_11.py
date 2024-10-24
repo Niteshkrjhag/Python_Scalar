@@ -35,7 +35,7 @@ print(list1 is list2)  # False, because they are different objects in memory
 
 a = 10**8
 b = 10**8
-c = a
+c = a       # This assign same memory to the object as here for c and a
 print(a == b)   # True, because the values of a and b are both 5
 print(a is b)   # True, because small integers like 5 are cached by Python, so a and b reference the same object in memory
 print(c is b)   # True, because c is assigned the value of a, which is the same object as b

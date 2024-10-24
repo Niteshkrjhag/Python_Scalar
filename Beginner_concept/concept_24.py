@@ -104,6 +104,8 @@ def modify_elements(collection):
         collection.append(100)  # This will affect the passed list
     else:
         collection += 10  # This won't affect the passed integer
+        print(collection)
+        
 
 # Mutable example
 my_list = [1, 2, 3]
